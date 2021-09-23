@@ -1,2 +1,1 @@
-# company_python
-# Image detection
+# Cnn_python
