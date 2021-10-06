@@ -30,4 +30,3 @@ for file in file_list:
     replace_in_file(file_list_py, "0 ", "2 ")
     filepath = path + '/' + file
     print(file)
-
