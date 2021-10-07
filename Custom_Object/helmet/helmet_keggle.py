@@ -72,6 +72,7 @@ def detect(detection_graph, test_image_path):
                 # category_index,
                 use_normalized_coordinates=True,
                 line_thickness=5)
+            # visualize
             plt.figure(figsize=(12, 8))
             plt.imshow(npim)
             plt.show()
