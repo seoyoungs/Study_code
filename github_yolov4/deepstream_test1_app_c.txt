@@ -300,6 +300,7 @@ main (int argc, char *argv[])
     }
   }
 
+
   /* Lets add probe to get informed of the meta data generated, we add probe to
    * the sink pad of the osd element, since by that time, the buffer would have
    * had got all the metadata. */
@@ -318,6 +319,7 @@ main (int argc, char *argv[])
   /* Wait till pipeline encounters an error or EOS */
   g_print ("Running...\n");
   g_main_loop_run (loop);
+
 
   /* Out of the main loop, clean up nicely */
   g_print ("Returned, stopping playback\n");
