@@ -1,0 +1,74 @@
+Sclaed_yolov4
+
+yolov4-csp.yaml로 학습하기
+--cfg yolov4-p5.yaml 이거 말고 models에서 찾기 yolov4-csp.yaml
+
+python -m torch.distributed.launch --nproc_per_node 1 train.py --batch-size 16 --img 320 320 --data data/coco_custom.yaml --cfg ./models/yolov4-csp.yaml --weights '' --sync-bn --device 0 --name yolov4-csp
+
+https://github.com/ultralytics/yolov5/commit/4d4a2b05208ec82d11d43767a6e8df2c35de85ea
+이걸로 문제해결.
+python train.py --img 320 --batch 32 --epochs 20 --data './data/coco_custom.yaml' --cfg ./models/yolov4-csp.yaml --weights 'yolov4-csp.pt' --name yolov4-csp-results
+
+
+# you can change batch size to fit your GPU RAM.
+python train.py --device 0 --batch-size 16 --data coco.yaml --cfg yolov4-csp.cfg --weights '' --name yolov4-csp
+
+이거 돌리면 이제 에러가 나는데 그럼 어디서 에러를 찾나
+
+self.label_files = [x.replace('images', 'labels').replace(os.path.splitext(x)[-1], '.txt') for x in self.img_files]
+self.label_files = [x.replace('images', 'labels').replace(os.path.splitext(x)[-1], '.txt') for x in self.img_files]
+sa, sb = os.sep + 'images' + os.sep, os.sep + 'labels' + os.sep  # /images/, /labels/ substrings 
+self.label_files = [x.replace(sa, sb, 1).replace(os.path.splitext(x)[-1], '.txt') for x in self.img_files]
+
+
+python train.py --img 320 --batch 16 --epochs 50 --data 'data/coco_custom.yaml' --cfg ./models/yolov4-csp.yaml --weights '' --name yolov4-csp-results --cache
+
+
+python test.py --img 320 --conf 0.001 --batch 16 --device 0 --data data/coco_custom.yaml --weights runs/exp1_yolov4-csp/weights/best_yolov4-csp.pt
+
+
+python onnx_convert.py --cfg_file ./models/yolov4-csp.yaml --weights_file runs/exp1_yolov4-csp/weights/best_yolov4-csp.pt --output_file yolov4-csp.onnx --sigmoid
+
+python onnx_convert.py --cfg_file ./models/yolov4-csp.yaml --weights_file runs/exp1_yolov4-csp/weights/best_yolov4-csp.pt --output_file yolov4-csp.onnx
+
+python3 export_onnx.py --cfg_file cfg/yolov4-csp.cfg --weights_file yolov4-csp.weights --output_file yolov4-csp.onnx --sigmoid
+
+
+python demo_pytorch2onnx.py weight/best_yolov4-csp.pt out_20210916_155401.jpg 1 6 320 320
+
+# ================== onnx로 바꾸는 방법.
+https://github.com/linghu8812/tensorrt_inference/tree/master/ScaledYOLOv4
+https://github.com/DataXujing/ScaledYOLOv4/tree/main/TensorRT
+
+saved as ./runs/exp2_yolov4-csp/weights/best_yolov4-csp.onnx
+
+python onnx_convert.py --weights ./runs/exp2_yolov4-csp/weights/best_yolov4-csp.pt --img-size 320 --batch-size 2
+
+하고 난후 
+https://netron.app/ 이어플 들어가서 onnx 파일 끌어넣으면 파일 형식 flowchart로 보인다.
+
+# ================== trt로 바꾸는 방법.
+https://github.com/linghu8812/tensorrt_inference/tree/master/ScaledYOLOv4
+위에 있는 경로 그대로 다운받아서 여기서 trt 진행 해야지 돌아간다.
+
+mkdir ScaledYOLOv4_trt && cd ScaledYOLOv4_trt
+cmake ..
+make -j
+
+./ScaledYOLOv4_trt ../config_onnx_trt.yaml ../sample/
+
+
+float one trt config_onnx_trt.yaml ..sample/
+
+
+
+
+
+
+
+
+
+
+
+
+
