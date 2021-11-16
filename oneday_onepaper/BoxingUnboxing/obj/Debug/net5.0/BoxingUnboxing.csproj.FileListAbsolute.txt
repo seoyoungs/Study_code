@@ -1,0 +1,16 @@
+C:\Users\USER\source\repos\oneday_onepaper\BoxingUnboxing\bin\Debug\net5.0\BoxingUnboxing.exe
+C:\Users\USER\source\repos\oneday_onepaper\BoxingUnboxing\bin\Debug\net5.0\BoxingUnboxing.deps.json
+C:\Users\USER\source\repos\oneday_onepaper\BoxingUnboxing\bin\Debug\net5.0\BoxingUnboxing.runtimeconfig.json
+C:\Users\USER\source\repos\oneday_onepaper\BoxingUnboxing\bin\Debug\net5.0\BoxingUnboxing.runtimeconfig.dev.json
+C:\Users\USER\source\repos\oneday_onepaper\BoxingUnboxing\bin\Debug\net5.0\BoxingUnboxing.dll
+C:\Users\USER\source\repos\oneday_onepaper\BoxingUnboxing\bin\Debug\net5.0\ref\BoxingUnboxing.dll
+C:\Users\USER\source\repos\oneday_onepaper\BoxingUnboxing\bin\Debug\net5.0\BoxingUnboxing.pdb
+C:\Users\USER\source\repos\oneday_onepaper\BoxingUnboxing\obj\Debug\net5.0\BoxingUnboxing.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\oneday_onepaper\BoxingUnboxing\obj\Debug\net5.0\BoxingUnboxing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\oneday_onepaper\BoxingUnboxing\obj\Debug\net5.0\BoxingUnboxing.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\oneday_onepaper\BoxingUnboxing\obj\Debug\net5.0\BoxingUnboxing.AssemblyInfo.cs
+C:\Users\USER\source\repos\oneday_onepaper\BoxingUnboxing\obj\Debug\net5.0\BoxingUnboxing.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\oneday_onepaper\BoxingUnboxing\obj\Debug\net5.0\BoxingUnboxing.dll
+C:\Users\USER\source\repos\oneday_onepaper\BoxingUnboxing\obj\Debug\net5.0\ref\BoxingUnboxing.dll
+C:\Users\USER\source\repos\oneday_onepaper\BoxingUnboxing\obj\Debug\net5.0\BoxingUnboxing.pdb
+C:\Users\USER\source\repos\oneday_onepaper\BoxingUnboxing\obj\Debug\net5.0\BoxingUnboxing.genruntimeconfig.cache

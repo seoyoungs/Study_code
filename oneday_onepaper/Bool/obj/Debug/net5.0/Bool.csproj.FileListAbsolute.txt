@@ -1,0 +1,16 @@
+C:\Users\USER\source\repos\Bool\bin\Debug\net5.0\Bool.exe
+C:\Users\USER\source\repos\Bool\bin\Debug\net5.0\Bool.deps.json
+C:\Users\USER\source\repos\Bool\bin\Debug\net5.0\Bool.runtimeconfig.json
+C:\Users\USER\source\repos\Bool\bin\Debug\net5.0\Bool.runtimeconfig.dev.json
+C:\Users\USER\source\repos\Bool\bin\Debug\net5.0\Bool.dll
+C:\Users\USER\source\repos\Bool\bin\Debug\net5.0\ref\Bool.dll
+C:\Users\USER\source\repos\Bool\bin\Debug\net5.0\Bool.pdb
+C:\Users\USER\source\repos\Bool\obj\Debug\net5.0\Bool.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\Bool\obj\Debug\net5.0\Bool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\Bool\obj\Debug\net5.0\Bool.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\Bool\obj\Debug\net5.0\Bool.AssemblyInfo.cs
+C:\Users\USER\source\repos\Bool\obj\Debug\net5.0\Bool.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Bool\obj\Debug\net5.0\Bool.dll
+C:\Users\USER\source\repos\Bool\obj\Debug\net5.0\ref\Bool.dll
+C:\Users\USER\source\repos\Bool\obj\Debug\net5.0\Bool.pdb
+C:\Users\USER\source\repos\Bool\obj\Debug\net5.0\Bool.genruntimeconfig.cache

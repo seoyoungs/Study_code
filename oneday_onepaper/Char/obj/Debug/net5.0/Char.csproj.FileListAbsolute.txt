@@ -1,0 +1,16 @@
+C:\Users\USER\source\repos\oneday_onepaper\Char\bin\Debug\net5.0\Char.exe
+C:\Users\USER\source\repos\oneday_onepaper\Char\bin\Debug\net5.0\Char.deps.json
+C:\Users\USER\source\repos\oneday_onepaper\Char\bin\Debug\net5.0\Char.runtimeconfig.json
+C:\Users\USER\source\repos\oneday_onepaper\Char\bin\Debug\net5.0\Char.runtimeconfig.dev.json
+C:\Users\USER\source\repos\oneday_onepaper\Char\bin\Debug\net5.0\Char.dll
+C:\Users\USER\source\repos\oneday_onepaper\Char\bin\Debug\net5.0\ref\Char.dll
+C:\Users\USER\source\repos\oneday_onepaper\Char\bin\Debug\net5.0\Char.pdb
+C:\Users\USER\source\repos\oneday_onepaper\Char\obj\Debug\net5.0\Char.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\oneday_onepaper\Char\obj\Debug\net5.0\Char.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\oneday_onepaper\Char\obj\Debug\net5.0\Char.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\oneday_onepaper\Char\obj\Debug\net5.0\Char.AssemblyInfo.cs
+C:\Users\USER\source\repos\oneday_onepaper\Char\obj\Debug\net5.0\Char.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\oneday_onepaper\Char\obj\Debug\net5.0\Char.dll
+C:\Users\USER\source\repos\oneday_onepaper\Char\obj\Debug\net5.0\ref\Char.dll
+C:\Users\USER\source\repos\oneday_onepaper\Char\obj\Debug\net5.0\Char.pdb
+C:\Users\USER\source\repos\oneday_onepaper\Char\obj\Debug\net5.0\Char.genruntimeconfig.cache
