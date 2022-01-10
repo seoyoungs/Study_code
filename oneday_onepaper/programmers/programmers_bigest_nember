@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+
+namespace programmers_bigest_nember
+{
+    class Program
+    {
+        public string solution(int[] numbers)
+        {
+            // 담을 list필요
+            List<string> n = new List<string>();
+            List<string> build = new List<string>();
+
+            for(int i = 0; i<numbers.Length; ++i)
+            {
+                n.Add(numbers[i].ToString());
+            }
+            n.Sort((a,b)=>(b+a).CompareTo(a+b));
+            foreach(var str in n)
+            {
+                build.Add(str);    
+            }
+
+            string answer = string.Join("", build);
+            if (answer[0] == '0') return "0";
+            return answer;
+        }
+    }
+}
